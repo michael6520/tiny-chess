@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://14miqlborl3k"]
+
+[ext_resource type="Script" uid="uid://1jxqovcu6or1" path="res://Board.cs" id="1_p0ybc"]
+
+[node name="Board" type="Node2D" unique_id=1072353141]
+script = ExtResource("1_p0ybc")
+
+[node name="Pieces" type="Node2D" parent="." unique_id=608618371]
+
+[node name="MoveSound" type="AudioStreamPlayer2D" parent="." unique_id=76483524]
